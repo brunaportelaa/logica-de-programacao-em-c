@@ -14,7 +14,6 @@ int main() {
     int algC;
     int algD;
     int algE;
-    int temp;
     int varS;
     int digitoV;
 
@@ -24,25 +23,19 @@ int main() {
     scanf("%d", &codigo);
 
     algE = codigo % 10;
-    // printf("Algarismo E: %d\n", algE);
-    temp = codigo / 10;
-    // printf("Variável temporária: %d\n", temp);
+    printf("Algarismo E: %d\n", algE);
 
-    algD = temp % 10;
-    // printf("Algarismo D: %d\n", algD);
-    temp = temp / 10;
-    // printf("Variável temporária: %d\n", temp);
+    algD = (codigo / 10) % 10;
+    printf("Algarismo D: %d\n", algD);
 
-    algC = temp % 10;
-    // printf("Algarismo C: %d\n", algC);
-    temp = temp / 10;
-    // printf("Variável temporária: %d\n", temp);
+    algC = (codigo / 100) % 10;
+    printf("Algarismo C: %d\n", algC);
 
-    algB = temp % 10;
-    // printf("Algarismo B: %d\n", algB);
+    algB = (codigo / 1000) % 10;
+    printf("Algarismo B: %d\n", algB);
     
-    algA = temp / 10;
-    // printf("Algarismo A: %d\n", algA);
+    algA = (codigo / 10000) % 10;
+    printf("Algarismo A: %d\n", algA);
 
     varS = (6 * algA) + (5 * algB) + (4 * algC) + (3 * algD) + (2 * algE);
     printf("Valor de S: %d\n", varS);
