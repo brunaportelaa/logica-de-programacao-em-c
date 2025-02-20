@@ -1,0 +1,25 @@
+18. Faça um algoritmo que leia os valores de COMPRIMENTO, LARGURA e
+ALTURA e apresente o valor do volume de uma caixa retangular. Utilize para o
+cálculo a fórmula VOLUME = COMPRIMENTO * LARGURA * ALTURA.
+
+19. Faça um algoritmo que leia um valor inteiro e apresente os resultados do
+quadrado e do cubo do valor lido.
+
+20. Faça um algoritmo que leia dois valores inteiros (A e B) e apresente o resultado
+do quadrado da soma dos valores lidos.
+
+21. Faça um algoritmo que leia dois valores inteiros (A e B) e apresente o resultado
+da soma do quadrado de cada valor lido.
+
+22. Faça um algoritmo que leia dois números nas variáveis Val1 e Val2, calcule sua
+média na variável Media e imprima seu valor.
+
+23. Faça um algoritmo que leia dois números nas variáveis NumA e NumB, nessa
+ordem, e imprima em ordem inversa, isto é, se os dados lidos forem 5 e 9, por
+exemplo, devem ser impressos na ordem 9 e 5.
+
+24. Faça um algoritmo que leia a velocidade de um veículo em km/h e calcule e
+imprima a velocidade em m/s (metros por segundo).
+
+25. Faça um algoritmo que leia dois números inteiros (Int1 e Int2) e imprima o
+quociente e o resto da divisão inteira de Int1 por Int2. 
