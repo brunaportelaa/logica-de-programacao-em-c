@@ -1,5 +1,5 @@
 // SÍNTESE
-//     ENTRADA: numA, numB, numC, numD e numE
+//     ENTRADA: codigo (int)
 //     PROCESSAMENTO: o digito verificador (DigitoV) módulo 7 
 //     SAÍDA: digitoV (int)
 
