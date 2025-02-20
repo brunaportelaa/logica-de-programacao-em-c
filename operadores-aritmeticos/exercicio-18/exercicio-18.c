@@ -23,6 +23,8 @@ int main() {
     printf("Insira a altura: \n");
     scanf("%d", &altura);
 
+    volume = comprimento * altura * largura;
+
     printf("Volume: %d\n", volume);
 
 }

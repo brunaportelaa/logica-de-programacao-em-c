@@ -16,6 +16,9 @@ int main() {
     printf("Insira um número inteiro: \n");
     scanf("%d", &valor);
 
+    quadrado = valor * valor;
+    cubo = quadrado * valor;
+
     printf("%d ao quadrado é: %d\n", valor, quadrado);
     printf("%d ao cubo é: %d\n", valor, cubo);
 

@@ -3,9 +3,6 @@
 //     PROCESSAMENTO: Efetua divisão e operação de módulo
 //     SAÍDA: quociente (int) e resto (float)
 
-// Dúvida!
-// o resto sai como float automaticamente?
-
 #include <stdio.h>
 
 int main() {
@@ -13,7 +10,7 @@ int main() {
     int int1;
     int int2;
     int quociente;
-    float resto;
+    int resto;
     
     printf("-----QUOCIENTE E RESTO DA DIVISÃO------\n");
 
@@ -27,6 +24,6 @@ int main() {
     resto = int1 % int2;
 
     printf("Quociente: %d\n", quociente);
-    printf("Resto: %f\n", resto);
+    printf("Resto: %d\n", resto);
 
 }

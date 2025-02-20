@@ -22,6 +22,8 @@ int main() {
     scanf("%d", &valor_dois);
 
     soma = valor_um + valor_dois;
+    quadrado = soma * soma;
+    cubo = quadrado * soma;
 
     printf("%d + %d ao quadrado é: %d\n", valor_um, valor_dois, quadrado);
     printf("%d + %d ao cubo é: %d\n",  valor_um, valor_dois, cubo);
