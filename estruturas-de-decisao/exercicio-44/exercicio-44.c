@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: tipo_selecionado (int), quantidade (int)
+//     PROCESSAMENTO: calcula o total arrecadado
+//     SAÍDA: printa a quantidade vendida e o total arrecadado
 
 #include <stdio.h>
 

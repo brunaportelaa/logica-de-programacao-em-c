@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: categoria (char), salario (float)
+//     PROCESSAMENTO: aumenta o salario de acordo com a categoria
+//     SAÍDA: printa a categoria e o novo salário
 
 #include <stdio.h>
 

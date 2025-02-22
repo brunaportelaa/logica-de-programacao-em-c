@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 int main() {
-    
+
     float artigo_um_preco;
     float artigo_dois_preco;
     float artigo_tres_preco;

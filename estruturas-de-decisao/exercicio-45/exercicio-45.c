@@ -1,25 +1,45 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: conta_bancaria (int), saldo (float), operacao (int), valor_operacao (float)
+//     PROCESSAMENTO: realiza operações de depósito e retirada
+//     SAÍDA: saldo (float)
 
 #include <stdio.h>
 
 int main() {
 
-    int var;
+    int conta_bancaria;
+    float saldo;
+    int operacao;
+    float valor_operacao;
     
-    printf("-----TITULO-------\n");
+    printf("Insira o número da sua conta bancária:\n");
+    scanf("%d", &conta_bancaria);
 
-    printf("Direcinamento: \n");
-    scanf("%d", &var);
+    printf("Insira o seu saldo inicial:\n");
+    scanf("%f", &saldo);
 
-    if() {
+    printf("Digite 1 para operação de depósito ou 2 para operação de retirada:\n");
+    scanf("%d", &operacao);
+
+    if (operacao == 1) {
+        printf("Informe o valor que gostaria de depositar:\n");
+        scanf("%f", &valor_operacao);
+        saldo += valor_operacao;
+        printf("Seu novo saldo é de %f", saldo);
+    } else if ( operacao == 2 ) {
+        printf("Informe o valor que gostaria de depositar:\n");
+        scanf("%f", &valor_operacao);
+        saldo -= valor_operacao;
+        printf("Seu novo saldo é de %f", saldo);
+
+        if (saldo < 0) {
+            printf("Conta estourada: seu saldo ficou negativo");
+        }
 
     } else {
-        
+        printf("Valor inválido\n");
+        printf("Digite 1 para operação de depósito ou 2 para operação de retirada:\n");
+        scanf("%d", &operacao); 
     }
-
-    printf("Retorno final: %d\n", var);
 
 }
