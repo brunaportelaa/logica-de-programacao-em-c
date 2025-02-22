@@ -1,60 +1,47 @@
 // SÍNTESE
-//     ENTRADA: vendas_corretor1, vendas_corretor2, vendas_corretor3 (float);
-//     PROCESSAMENTO: calcula total_vendas e define porcentagem de comissão de cada corretor
-//     SAÍDA: 
+//     ENTRADA: num_parafusos, num_porcas e num_arruelas (float);
+//     PROCESSAMENTO: calcula o total da compra, o total de desconto e o total a pagar;
+//     SAÍDA: total_desconto e total_a_pagar (float)
 
 #include <stdio.h>
 
 int main() {
 
-    float vendas_corretor1;
-    float vendas_corretor2;
-    float vendas_corretor3;
-    float total_vendas;
-    float comissao_corretor1;
-    float comissao_corretor2;
-    float comissao_corretor3;
+    float preco_porcas = 5;
+    float preco_parafusos = 2;
+    float preco_arruelas = 1;
+    float num_porcas;
+    float num_parafusos;
+    float num_arruelas;
+    float total_desconto;
+    float total_a_pagar;
     
-    printf("Informe o valor da venda do corretor 1: \n");
-    scanf("%f", &vendas_corretor1);
+    printf("Informe quantas porcas foram compradas: \n");
+    scanf("%f", &num_porcas);
 
-    printf("Informe o valor da venda do corretor 2: \n");
-    scanf("%f", &vendas_corretor2);
+    printf("Informe quantos parafusos foram comprados: \n");
+    scanf("%f", &num_parafusos);
 
-    printf("Informe o valor da venda do corretor 3: \n");
-    scanf("%f", &vendas_corretor3);
+    printf("Informe quantas arruelas foram compradas: \n");
+    scanf("%f", &num_arruelas);
 
-    if (vendas_corretor1 > 50000){
-        comissao_corretor1 = 12.0;
-    } else if (vendas_corretor1 <= 50000 && vendas_corretor1 >= 30000) {
-        comissao_corretor1 = 9.5;
-    } else {
-        comissao_corretor1 = 7.0;
-    }
-
-    if (vendas_corretor2 > 50000){
-        comissao_corretor2 = 12.0;
-    } else if (vendas_corretor2 <= 50000 && vendas_corretor2 >= 30000) {
-        comissao_corretor2 = 9.5;
-    } else {
-        comissao_corretor2 = 7.0;
-    }
-
-    if (vendas_corretor3 > 50000){
-        comissao_corretor3 = 12.0;
-    } else if (vendas_corretor3 <= 50000 && vendas_corretor3 >= 30000) {
-        comissao_corretor3 = 9.5;
-    } else {
-        comissao_corretor3 = 7.0;
-    }
+    total_a_pagar = (num_porcas * preco_porcas) + (num_parafusos * preco_parafusos) + (num_arruelas * preco_arruelas);
+    printf("O valor total da compra é de R$%.25f\n",total_a_pagar);
     
-    total_vendas = vendas_corretor1 + vendas_corretor2 + vendas_corretor3;
 
-    printf("O corretor 1 vendeu %.2f e recebe uma comissão de %.2f%%\n", vendas_corretor1, comissao_corretor1);
-    printf("O corretor 2 vendeu %.2f e recebe uma comissão de %.2f%%\n", vendas_corretor2, comissao_corretor2);
-    printf("O corretor 3 vendeu %.2f e recebe uma comissão de %.2f%%\n", vendas_corretor3, comissao_corretor3);
+    total_desconto += (num_porcas * preco_porcas) * 0.1;
+    printf("Total de desconto em porcas: R$%.2f\n",(num_porcas * preco_porcas) * 0.1);
 
-    printf("O total de vendas da empresa foi de R$%.2f", total_vendas);
+    total_desconto += (num_parafusos * preco_parafusos) * 0.2;
+    printf("Total de desconto em porcas: R$%.2f\n",(num_parafusos * preco_parafusos) * 0.2);
+
+    total_desconto += (num_arruelas * preco_arruelas) * 0.3;
+    printf("Total de desconto em porcas: R$%.2f\n",(num_arruelas * preco_arruelas) * 0.3);
+
+    printf("Total de desconto: R$%.2f\n", total_desconto);
+
+    total_a_pagar -= total_desconto;
+    printf("Total a pagar pela compra: R$%.2f\n", total_a_pagar);
 
 
 }

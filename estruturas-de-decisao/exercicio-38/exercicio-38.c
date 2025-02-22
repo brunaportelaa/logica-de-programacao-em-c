@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: num (int)
-//     PROCESSAMENTO: decide se vai imprimir "F1" (N<=10), "F2" (N>10 && N <= 100) ou "F3" (N>100)
-//     SAÍDA: "F1" || "F2" || "F3"
+//     ENTRADA: numA, numB e numC (int)
+//     PROCESSAMENTO: imprime os números em ordem crescente
+//     SAÍDA: numA, numB e numC (em ordem crescente)
 
 #include <stdio.h>
 
