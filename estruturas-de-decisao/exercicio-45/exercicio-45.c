@@ -25,21 +25,21 @@ int main() {
         printf("Informe o valor que gostaria de depositar:\n");
         scanf("%f", &valor_operacao);
         saldo += valor_operacao;
-        printf("Seu novo saldo é de %f", saldo);
-    } else if ( operacao == 2 ) {
-        printf("Informe o valor que gostaria de depositar:\n");
-        scanf("%f", &valor_operacao);
-        saldo -= valor_operacao;
-        printf("Seu novo saldo é de %f", saldo);
-
-        if (saldo < 0) {
-            printf("Conta estourada: seu saldo ficou negativo");
-        }
-
+        printf("Seu novo saldo é de R$%.2f\n", saldo);
     } else {
-        printf("Valor inválido\n");
-        printf("Digite 1 para operação de depósito ou 2 para operação de retirada:\n");
-        scanf("%d", &operacao); 
-    }
+        if ( operacao == 2 ) {
+            printf("Informe o valor que gostaria de retirar:\n");
+            scanf("%f", &valor_operacao);
+            saldo -= valor_operacao;
+            printf("Seu novo saldo é de R$%.2f\n", saldo);
 
+            if (saldo < 0) {
+                printf("Conta estourada: seu saldo ficou negativo");
+            } 
+        } else {
+            printf("Valor inválido\n");
+            printf("Digite 1 para operação de depósito ou 2 para operação de retirada:\n");
+            scanf("%d", &operacao); 
+        }
+    }
 }

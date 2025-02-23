@@ -17,10 +17,12 @@ int main() {
 
     if ( qtd_diarias < 15) {
         taxa_servicos = 8;
-    } else if ( qtd_diarias == 15 ) {
-        taxa_servicos = 6;
     } else {
-        taxa_servicos = 5.5;
+        if ( qtd_diarias == 15 ) {
+            taxa_servicos = 6;
+        } else {
+            taxa_servicos = 5.5;
+        }
     }
 
     valor_total = (valor_diaria * qtd_diarias) + (taxa_servicos * qtd_diarias);
