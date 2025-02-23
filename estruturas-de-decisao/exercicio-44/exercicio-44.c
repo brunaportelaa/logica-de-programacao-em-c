@@ -20,21 +20,24 @@ int main() {
         scanf("%d", &quantidade);
         preco = 0.5;
         total_arrecadado = preco * quantidade;
-        printf("Foram vendidos %d picolés do tipo 1. O total arrecadado foi de R$%.2f", quantidade, preco);
-    } else if (tipo_selecionado == 2) {
+        printf("Foram vendidos %d picolés do tipo 1. O total arrecadado foi de R$%.2f", quantidade, total_arrecadado);
+    } else {
+        if (tipo_selecionado == 2) {
         printf("Insira a quantidade vendida de picolés tipo 2: \n");
         scanf("%d", &quantidade);
         preco = 0.6;
         total_arrecadado = preco * quantidade;
-        printf("Foram vendidos %d picolés do tipo 2. O total arrecadado foi de R$%.2f", quantidade, preco);
-    } else if (tipo_selecionado == 3) {
-        printf("Insira a quantidade vendida de picolés tipo 3: \n");
-        scanf("%d", &quantidade);
-        preco = 0.75;
-        total_arrecadado = preco * quantidade;
-        printf("Foram vendidos %d picolés do tipo 3. O total arrecadado foi de R$%.2f", quantidade, preco);
-    } else {
-        printf("Por favor, insira um tipo válido (1, 2 ou 3)");
+        printf("Foram vendidos %d picolés do tipo 2. O total arrecadado foi de R$%.2f", quantidade, total_arrecadado);
+        } else {
+            if (tipo_selecionado == 3) {
+            printf("Insira a quantidade vendida de picolés tipo 3: \n");
+            scanf("%d", &quantidade);
+            preco = 0.75;
+            total_arrecadado = preco * quantidade;
+            printf("Foram vendidos %d picolés do tipo 3. O total arrecadado foi de R$%.2f", quantidade, total_arrecadado);
+            } else {
+                printf("Por favor, insira um tipo válido (1, 2 ou 3)");
+            }
+        }
     }
-
-}
+} 

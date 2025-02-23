@@ -7,10 +7,9 @@
 
 int main() {
 
-    int var;
+    int varA;
+    int varB;
     
-    printf("-----TITULO-------\n");
-
     printf("Direcinamento: \n");
     scanf("%d", &var);
 

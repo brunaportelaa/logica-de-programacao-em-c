@@ -9,15 +9,22 @@ int main() {
 
     int num;
     
-    printf("Insira um múmero: \n");
+    printf("Insira um número: \n");
     scanf("%d", &num);
 
-    if(num <= 10) {
+    if (num <= 10) {
         printf("F1 \n");
-    } else if(num > 10 && num <=100) {
-        printf("F2 \n");
     } else {
-        printf("F3 \n");
+        if (num > 10 && num <= 100 )
+        {
+            printf("F3 \n");
+        } else {
+            printf("F3 \n");
+        }
     }
 
+    
+
+    
+    
 }

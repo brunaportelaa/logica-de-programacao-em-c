@@ -22,10 +22,11 @@ int main() {
 
     if(numA + numB > numC) {
         printf("A soma de %d e %d é maior que %d", numA, numB, numC);
-    } else if(numA + numB == numC) {
-        printf("A soma de %d e %d é igual a %d", numA, numB, numC);
     } else {
-        printf("A soma de %d e %d é menor que %d", numA, numB, numC);
+        if(numA + numB == numC) {
+            printf("A soma de %d e %d é igual a %d", numA, numB, numC);
+        } else {
+            printf("A soma de %d e %d é menor que %d", numA, numB, numC);
+        }
     }
-
 }

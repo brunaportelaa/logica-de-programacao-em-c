@@ -26,26 +26,32 @@ int main() {
 
     if (vendas_corretor1 > 50000){
         comissao_corretor1 = 12.0;
-    } else if (vendas_corretor1 <= 50000 && vendas_corretor1 >= 30000) {
-        comissao_corretor1 = 9.5;
     } else {
-        comissao_corretor1 = 7.0;
+        if (vendas_corretor1 <= 50000 && vendas_corretor1 >= 30000) {
+            comissao_corretor1 = 9.5;
+    }   else {
+            comissao_corretor1 = 7.0;
+    }
     }
 
     if (vendas_corretor2 > 50000){
         comissao_corretor2 = 12.0;
-    } else if (vendas_corretor2 <= 50000 && vendas_corretor2 >= 30000) {
-        comissao_corretor2 = 9.5;
     } else {
-        comissao_corretor2 = 7.0;
+        if (vendas_corretor2 <= 50000 && vendas_corretor2 >= 30000) {
+            comissao_corretor2 = 9.5;
+        } else {
+            comissao_corretor2 = 7.0;
+        }
     }
 
     if (vendas_corretor3 > 50000){
         comissao_corretor3 = 12.0;
-    } else if (vendas_corretor3 <= 50000 && vendas_corretor3 >= 30000) {
-        comissao_corretor3 = 9.5;
     } else {
-        comissao_corretor3 = 7.0;
+        if (vendas_corretor3 <= 50000 && vendas_corretor3 >= 30000) {
+            comissao_corretor3 = 9.5;
+        } else {
+            comissao_corretor3 = 7.0;
+    }
     }
     
     total_vendas = vendas_corretor1 + vendas_corretor2 + vendas_corretor3;
