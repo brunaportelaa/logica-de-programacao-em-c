@@ -4,12 +4,13 @@
 //     SAÍDA: total_desconto e total_a_pagar (float)
 
 #include <stdio.h>
+#define PRECO_PORCAS 5.0
+#define PRECO_PARAFUSOS 2.0
+#define PRECO_ARRUELAS 1.0
+
 
 int main() {
 
-    float preco_porcas = 5;
-    float preco_parafusos = 2;
-    float preco_arruelas = 1;
     float percentual_desconto;
     float num_porcas;
     float num_parafusos;
@@ -26,22 +27,22 @@ int main() {
     printf("Informe quantas arruelas foram compradas: \n");
     scanf("%f", &num_arruelas);
 
-    total_a_pagar = (num_porcas * preco_porcas) + (num_parafusos * preco_parafusos) + (num_arruelas * preco_arruelas);
+    total_a_pagar = (num_porcas * PRECO_PORCAS) + (num_parafusos * PRECO_PARAFUSOS) + (num_arruelas * PRECO_ARRUELAS);
     printf("O valor total da compra é de R$%.25f\n",total_a_pagar);
     
     if (num_porcas > 0) {
         percentual_desconto = 0.1;
-        total_desconto += (num_porcas * preco_porcas) * percentual_desconto;
+        total_desconto += (num_porcas * PRECO_PORCAS) * percentual_desconto;
     } 
 
     if (num_parafusos > 0) {
         percentual_desconto = 0.2;
-        total_desconto += (num_parafusos * preco_parafusos) * percentual_desconto;
+        total_desconto += (num_parafusos * PRECO_PARAFUSOS) * percentual_desconto;
     }
 
     if (num_arruelas > 0) {
         percentual_desconto = 0.3;
-        total_desconto += (num_arruelas * preco_arruelas) * percentual_desconto;
+        total_desconto += (num_arruelas * PRECO_ARRUELAS) * percentual_desconto;
     }
 
     printf("Total de desconto: R$%.2f\n", total_desconto);

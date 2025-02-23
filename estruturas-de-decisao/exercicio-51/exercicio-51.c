@@ -7,18 +7,22 @@
 
 int main() {
 
-    int varA;
-    int varB;
+    int numA;
+    int numB;
     
-    printf("Direcinamento: \n");
-    scanf("%d", &var);
+    printf("Insira o número A: \n");
+    scanf("%d", &numA);
 
-    if() {
+    printf("Insira o número B: \n");
+    scanf("%d", &numB);
 
+    if(numA > numB) {
+        printf("O número maior é: %d\n", numA);
     } else {
-        
+        if (numB > numA) {
+            printf("O número maior é: %d\n", numB);
+        } else {
+            printf("Os números são iguais.");
+        }   
     }
-
-    printf("Retorno final: %d\n", var);
-
 }

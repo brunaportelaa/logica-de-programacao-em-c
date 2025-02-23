@@ -1,5 +1,5 @@
 // SÍNTESE
-//     ENTRADA: 
+//     ENTRADA: numA e numB (int)
 //     PROCESSAMENTO: 
 //     SAÍDA: 
 
@@ -7,19 +7,19 @@
 
 int main() {
 
-    int var;
+    int numA;
+    int numB;
     
-    printf("-----TITULO-------\n");
+    printf("Insira um número: \n");
+    scanf("%d", &numA);
 
-    printf("Direcinamento: \n");
-    scanf("%d", &var);
+    printf("Insira outro número: \n");
+    scanf("%d", &numB);
 
-    if() {
-
+    if(numB % numA == 0) {
+        printf("São múltiplos\n");
     } else {
-        
+        printf("Não são múltiplos\n");
     }
-
-    printf("Retorno final: %d\n", var);
 
 }

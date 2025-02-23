@@ -7,19 +7,30 @@
 
 int main() {
 
-    int var;
+    int nota1;
+    int nota2;
+    int nota3;
+    int media;
     
-    printf("-----TITULO-------\n");
+    printf("Insira a nota 1: \n");
+    scanf("%d", &nota1);
 
-    printf("Direcinamento: \n");
-    scanf("%d", &var);
+    printf("Insira a nota 2: \n");
+    scanf("%d", &nota2);
 
-    if() {
+    printf("Insira a nota 3: \n");
+    scanf("%d", &nota3);
 
+    media = ( nota1 + nota2 + nota3 ) / 3;
+
+    if (media >= 7 ) {
+        printf("Aprovado.");
     } else {
-        
+        if ( media < 7 && media >= 4) {
+            printf("Em prova final.");
+        } else {
+            printf("Reprovado.");
+        }
     }
-
-    printf("Retorno final: %d\n", var);
 
 }

@@ -1,25 +1,35 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: numA, numB e numC (int)
+//     PROCESSAMENTO: imprime o menor número
+//     SAÍDA: menor número
 
 #include <stdio.h>
 
 int main() {
 
-    int var;
+    int numA;
+    int numB;
+    int numC;
+
+    printf("Insira o número A: \n");
+    scanf("%d", &numA);
+
+    printf("Insira o número B: \n");
+    scanf("%d", &numB);
+
+    printf("Insira o número C: \n");
+    scanf("%d", &numC);
     
-    printf("-----TITULO-------\n");
-
-    printf("Direcinamento: \n");
-    scanf("%d", &var);
-
-    if() {
-
-    } else {
-        
+    if(numA > numB && numA > numC) {
+        printf("%d é o maior ", numA);
     }
 
-    printf("Retorno final: %d\n", var);
+    if(numB > numA && numB > numC) {
+        printf("%d é o maior", numB);
+    }
+
+    if(numC > numB && numC > numA) {
+        printf("%d é o maior", numC);
+    }
 
 }

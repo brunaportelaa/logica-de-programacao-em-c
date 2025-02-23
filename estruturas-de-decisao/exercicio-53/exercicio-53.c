@@ -1,25 +1,59 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: numA, numB e numC (int)
+//     PROCESSAMENTO: imprime em ordem crescente
+//     SAÍDA: numA, numB e numC (int)
 
 #include <stdio.h>
 
 int main() {
 
-    int var;
-    
-    printf("-----TITULO-------\n");
+    int numA;
+    int numB;
+    int numC;
 
-    printf("Direcinamento: \n");
-    scanf("%d", &var);
+    printf("Insira o número A: \n");
+    scanf("%d", &numA);
 
-    if() {
+    printf("Insira o número B: \n");
+    scanf("%d", &numB);
 
-    } else {
-        
+    printf("Insira o número C: \n");
+    scanf("%d", &numC);
+
+    if(numA > numB && numA > numC) {
+        printf("%d ", numA);
+
+        if(numB > numC) {
+            printf("%d ", numB);
+            printf("%d", numC);
+        } else {
+            printf("%d ", numC);
+            printf("%d ", numB);
+        }
     }
 
-    printf("Retorno final: %d\n", var);
+    if(numB > numA && numB > numC) {
+        printf("%d ", numB);
 
-}
+        if(numA > numC) {
+            printf("%d ", numA);
+            printf("%d ", numC);
+        } else {
+            printf("%d ", numC);
+            printf("%d ", numA);
+        }
+    }
+
+    if(numC > numB && numC > numA) {
+        printf("%d ", numC);
+
+        if(numA > numB) {
+            printf("%d ", numA);
+            printf("%d ", numB);
+        } else {
+            printf("%d ", numB);
+            printf("%d ", numA);
+        }
+    }
+        
+    }

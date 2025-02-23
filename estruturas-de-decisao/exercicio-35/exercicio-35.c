@@ -4,6 +4,7 @@
 //     SAÍDA: "Aluno aprovado" || "Aluno reprovado"
 
 #include <stdio.h>
+#define NOTA_DE_CORTE 5.0
 
 int main() {
 
@@ -23,7 +24,7 @@ int main() {
 
     media = (nota_port + nota_mat + nota_cg) / 3;
 
-    if( media > 7 && nota_port > 5 && nota_mat > 5 && nota_cg > 5) {
+    if( media > 7 && nota_port > NOTA_DE_CORTE && nota_mat > NOTA_DE_CORTE && nota_cg > NOTA_DE_CORTE) {
         printf("Aluno aprovado com média %.2f\n", media);
     } else {
         printf("Aluno reprovado");

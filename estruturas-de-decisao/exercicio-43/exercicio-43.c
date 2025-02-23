@@ -23,13 +23,13 @@ int main() {
             salario += salario * 0.15;
         } else {
             if(categoria == 'B' || categoria == 'D' || categoria == 'E' || categoria == 'I' || categoria == 'J' || categoria == 'T'){
-        salario += salario * 0.15;
+            salario += salario * 0.15;
             } else {
                 if(categoria == 'K' || categoria == 'R'){
                     salario += salario * 0.25;
                 } else {
                     if(categoria == 'L' || categoria == 'M' || categoria == 'N' || categoria == 'O' || categoria == 'P' || categoria == 'Q' || categoria == 'S'){
-                    salario += salario * 0.35;
+                        salario += salario * 0.35;
                     } else {
                         if(categoria == 'U' || categoria == 'V' || categoria == 'X' || categoria == 'Y' || categoria == 'W' || categoria == 'Z'){
                             salario += salario * 0.5;

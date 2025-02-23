@@ -4,11 +4,11 @@
 //     SAÍDA: valor_total (float)
 
 #include <stdio.h>
+#define VALOR_DIARIA 60.0
 
 int main() {
 
     int qtd_diarias;
-    float valor_diaria = 60;
     float taxa_servicos;
     float valor_total;
 
@@ -25,7 +25,7 @@ int main() {
         }
     }
 
-    valor_total = (valor_diaria * qtd_diarias) + (taxa_servicos * qtd_diarias);
+    valor_total = (VALOR_DIARIA * qtd_diarias) + (taxa_servicos * qtd_diarias);
 
     printf("A sua estadia teve um total de %d diárias e o total da sua conta foi de R$%.2f", qtd_diarias, valor_total);
 }
