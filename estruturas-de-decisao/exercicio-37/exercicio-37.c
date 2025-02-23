@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: data_hoje e data_nasc (int)
+//     PROCESSAMENTO: divide a data de hoje e a data de nascimento e calcula quantos dias foram vividos
+//     SAÍDA: dias_vividos (int)
 
 #include <stdio.h>
 
@@ -32,5 +32,7 @@ int main() {
     mes_nasc = (data_nasc / 10000) % 100;
     ano_nasc = data_nasc % 10000;
 
-    // Não finalizado!
+    dias_vividos = ((ano_hoje - (ano_nasc + 1)) * 360) + (((12 - mes_nasc) + (mes_hoje - 1)) * 30) + dia_hoje + (30 - dia_nasc);
+
+    printf("Uma pessoa nascida no dia %d/%d/%d, considerando-se um mês de 30 dias, viveu por %d dias\n", dia_nasc, mes_nasc, ano_nasc, dias_vividos);
 }
