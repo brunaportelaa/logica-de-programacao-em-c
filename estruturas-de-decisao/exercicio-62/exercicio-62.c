@@ -12,18 +12,32 @@
 
 int main() {
 
-    int saldo;
-    int credito;
+    float saldo;
+    float credito;
     
     printf("Informe o saldo médio: \n");
-    scanf("%d", &saldo);
+    scanf("%f", &saldo);
 
-    if() {
-
+    if( saldo <= 200 ) {
+        printf("Seu saldo é de: R$%.2f", saldo);
+        credito = saldo * PERCENTUAL_0_200;
+        printf("Seu valor disponível para crédito é de: %.2f", credito);
     } else {
-        
-    }
-
-    printf("Retorno final: %d\n", var);
+        if( saldo > 200 && saldo < 401 ) {
+            printf("Seu saldo é de: R$%.2f", saldo);
+            credito = saldo * PERCENTUAL_201_400;
+            printf("Seu valor disponível para crédito é de: %.2f", credito);
+        } else {
+            if( saldo > 400 && saldo < 601 ) {
+                printf("Seu saldo é de: R$%.2f", saldo);
+                credito = saldo * PERCENTUAL_401_600;
+                printf("Seu valor disponível para crédito é de: %.2f", credito);
+            } else {
+                printf("Seu saldo é de: R$%.2f", saldo);
+                credito = saldo * PERCENTUAL_201_400;
+                printf("Seu valor disponível para crédito é de: %.2f", credito);
+                }
+            }
+        }
 
 }
