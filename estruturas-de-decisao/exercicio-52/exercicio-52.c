@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: numA (int), numB (int);
+//     PROCESSAMENTO: verifica se os números são iguais e imprime o maior número;
+//     SAÍDA: print do maior número;
 
 #include <stdio.h>
 
@@ -22,7 +22,7 @@ int main() {
     } else {
         if (numB > numA) {
             printf("Os números não são iguais.");
-        printf("%d > %d\n", numB, numA);
+            printf("%d > %d\n", numB, numA);
         } else {
             printf("Os números são iguais.");
         }   

@@ -1,7 +1,7 @@
 // SÍNTESE
 //     ENTRADA: numA e numB (int)
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     PROCESSAMENTO: verifica se numB é múltiplo de numA
+//     SAÍDA: print se são múltiplos ou não
 
 #include <stdio.h>
 

@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: numA (int), numB (int);
+//     PROCESSAMENTO: verifica qual número é maior e imprime o maior número;
+//     SAÍDA: print do maior número;
 
 #include <stdio.h>
 

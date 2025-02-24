@@ -1,6 +1,6 @@
 // SÍNTESE
 //     ENTRADA: numA, numB e numC (int)
-//     PROCESSAMENTO: imprime em ordem crescente
+//     PROCESSAMENTO: verifica qual número é maior e imprime os números em ordem decrescente;
 //     SAÍDA: numA, numB e numC (int)
 
 #include <stdio.h>

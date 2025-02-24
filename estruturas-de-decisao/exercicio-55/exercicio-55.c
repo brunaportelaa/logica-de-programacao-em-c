@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: nota1, nota2, nota3 (int)
+//     PROCESSAMENTO: verifica a média das notas e imprime a situação do aluno;
+//     SAÍDA: print da situação do aluno;
 
 #include <stdio.h>
 

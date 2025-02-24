@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: nota (int);
+//     PROCESSAMENTO: verifica a nota e imprime o conceito correspondente;
+//     SAÍDA: print do conceito;
 
 #include <stdio.h>
 

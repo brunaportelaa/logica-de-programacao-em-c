@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: num1, num2, num3 (int)
+//     PROCESSAMENTO: verifica qual número foi escolhido e imprime o número correspondente;
+//     SAÍDA: print do número escolhido;
 
 #include <stdio.h>
 

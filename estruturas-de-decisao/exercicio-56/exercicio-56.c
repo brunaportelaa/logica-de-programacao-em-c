@@ -1,6 +1,6 @@
 // SÍNTESE
 //     ENTRADA: numA, numB e numC (int)
-//     PROCESSAMENTO: imprime o menor número
+//     PROCESSAMENTO: imprime o maior número
 //     SAÍDA: menor número
 
 #include <stdio.h>

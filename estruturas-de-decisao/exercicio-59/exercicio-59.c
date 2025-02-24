@@ -1,5 +1,5 @@
 // SÍNTESE
-//     ENTRADA: 
+//     ENTRADA: num1 (int)
 //     PROCESSAMENTO: 
 //     SAÍDA: 
 
@@ -7,19 +7,24 @@
 
 int main() {
 
-    int var;
+    int num;
     
-    printf("-----TITULO-------\n");
+    printf("Informe o valor de um número inteiro: \n");
+    scanf("%d", &num);
 
-    printf("Direcinamento: \n");
-    scanf("%d", &var);
-
-    if() {
-
+    if( num % 2 == 0) {
+        printf("Este número é PAR\n");
     } else {
-        
+        printf("Este número é ÍMPAR\n");
     }
 
-    printf("Retorno final: %d\n", var);
-
+    if( num > 0 ) {
+        printf("Este número é POSITIVO\n");
+    } else {
+        if (num == 0) {
+            printf("Este número é ZERO\n");
+        } else {
+            printf("Este número é NEGATIVO\n");
+        }
+    }
 }

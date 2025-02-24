@@ -23,7 +23,7 @@ int main() {
             salario += salario * 0.15;
         } else {
             if(categoria == 'B' || categoria == 'D' || categoria == 'E' || categoria == 'I' || categoria == 'J' || categoria == 'T'){
-            salario += salario * 0.15;
+                salario += salario * 0.15;
             } else {
                 if(categoria == 'K' || categoria == 'R'){
                     salario += salario * 0.25;
