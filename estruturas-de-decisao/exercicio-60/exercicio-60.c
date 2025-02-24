@@ -1,7 +1,7 @@
 // SÍNTESE
 //     ENTRADA: código (int), quantidade (int)
 //     PROCESSAMENTO: calcular o valor total da compra para cada item
-//     SAÍDA: 
+//     SAÍDA: printf com o valor total da compra
 
 #include <stdio.h>
 

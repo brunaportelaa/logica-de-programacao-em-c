@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: código (string), quantidade (int)
+//     PROCESSAMENTO: verifica o código do produto e calcula o preço total
+//     SAÍDA: printf com o preço total
 
 #include <stdio.h>
 
@@ -23,22 +23,18 @@ int main() {
     scanf("%d", &quantidade);
 
     if( codigo == "ABCD" ) {
-        preco_total = PRECO_ABCD * quantidade;
-        printf("Preço total: %.2f\n", preco_total);
+        preco_total = quantidade * PRECO_ABCD;
     } else {
         if( codigo == "XYPK" ) {
-            preco_total = PRECO_XYPK * quantidade;
-            printf("Preço total: %.2f\n", preco_total);
+            preco_total = quantidade * PRECO_XYPK;
         } else {
             if( codigo == "KLMP" ) {
-                preco_total = PRECO_KLMP * quantidade;
-                printf("Preço total: %.2f\n", preco_total);
+                preco_total = quantidade * PRECO_KLMP;
             } else {
                 if( codigo == "QRST" ) {
-                    preco_total = PRECO_QRST * quantidade;
-                    printf("Preço total: %.2f\n", preco_total);
+                    preco_total = quantidade * PRECO_QRST;
                 } else {
-                    printf("Por favor, informe um código válido.\n");
+                    printf("Por favor, informe um código válido. \n");
                 }
             }
         }

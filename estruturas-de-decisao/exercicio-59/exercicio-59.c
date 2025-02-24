@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: num1 (int)
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: num (int)
+//     PROCESSAMENTO: verifica se o número é par, ímpar, positivo, negativo ou zero
+//     SAÍDA: printf com a classificação do número
 
 #include <stdio.h>
 

@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: nota1, nota2, nota3 (float)
+//     PROCESSAMENTO: verifica qual é a maior nota e atribui pesos para as notas
+//     SAÍDA: printf com as notas do aluno, média ponderada final e situação do aluno
 
 #include <stdio.h>
 

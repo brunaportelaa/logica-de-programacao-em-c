@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: salário (int)
+//     PROCESSAMENTO: verifica a faixa salarial e aplica o aumento de acordo com a faixa
+//     SAÍDA: printf com o salário com aumento
 
 #include <stdio.h>
 
@@ -20,12 +20,22 @@ int main() {
     printf("Informe o salário: \n");
     scanf("%d", &salario);
 
-    if() {
-
+    if( salario < FAIXA_1 ) {
+        salario += salario * PERCENTUAL_1;
     } else {
-        
+        if( salario >= FAIXA_1 && salario < FAIXA_2 ) {
+            salario += salario * PERCENTUAL_2;
+        } else {
+            if( salario >= FAIXA_2 && salario < FAIXA_3 ) {
+                salario += salario * PERCENTUAL_3;
+            } else {
+                if( salario >= FAIXA_3 ) {
+                    salario += salario * PERCENTUAL_4;
+                }
+            }
+        }
     }
 
-    printf("Retorno final: %d\n", var);
+    printf("Salário com aumento: %d\n", salario);
 
 }

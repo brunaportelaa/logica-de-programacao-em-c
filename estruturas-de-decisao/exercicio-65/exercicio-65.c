@@ -1,7 +1,9 @@
+
+
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: nota1, nota2 (int)
+//     PROCESSAMENTO: verifica se ambas as notas são maiores que 5
+//     SAÍDA: printf com a situação do aluno
 
 #include <stdio.h>
 
@@ -21,7 +23,7 @@ int main() {
     if( nota1 > NOTA_DE_CORTE && nota2 > NOTA_DE_CORTE) {
         printf("APROVADO\n");
     } else {
-        printf("reprovado\n");
+        printf("REPROVADO\n");
     }
 
 }

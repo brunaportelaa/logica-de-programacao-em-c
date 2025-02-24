@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: saldo (float)
+//     PROCESSAMENTO: verificar o saldo médio e calcular o crédito disponível
+//     SAÍDA: printf com o saldo e o crédito disponível
 
 #include <stdio.h>
 

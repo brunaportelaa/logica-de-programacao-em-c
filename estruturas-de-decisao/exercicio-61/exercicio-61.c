@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: nota1, nota2, nota3 (float)
+//     PROCESSAMENTO: calcular a média aritmética ou ponderada das notas
+//     SAÍDA: printf com a média das notas
 
 #include <stdio.h>
 

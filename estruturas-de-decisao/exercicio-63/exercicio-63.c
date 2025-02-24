@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: código (int), quantidade (int)
+//     PROCESSAMENTO: verifica o código do produto e calcula o preço total
+//     SAÍDA: printf com o preço total
 
 #include <stdio.h>
 
