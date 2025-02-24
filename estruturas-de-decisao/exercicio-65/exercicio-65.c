@@ -18,12 +18,10 @@ int main() {
     printf("Informe a nota 2: \n");
     scanf("%d", &nota2);
 
-    if() {
-
+    if( nota1 > NOTA_DE_CORTE && nota2 > NOTA_DE_CORTE) {
+        printf("APROVADO\n");
     } else {
-        
+        printf("reprovado\n");
     }
-
-    printf("Retorno final: %d\n", var);
 
 }
