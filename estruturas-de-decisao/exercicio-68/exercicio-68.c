@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: salário (int)
+//     PROCESSAMENTO: verifica o desconto de acordo com o salário
+//     SAÍDA: printf com o desconto
 
 #include <stdio.h>
 #define DESCONTO_PERCENTUAL 0.11
@@ -10,16 +10,17 @@
 int main() {
 
     int salario;
+    float desconto;
     
     printf("Informe o salário: \n");
     scanf("%d", &salario);
 
-    if() {
-
+    if( salario * DESCONTO_PERCENTUAL > MAX_DESCONTO ) {
+        desconto = MAX_DESCONTO;
     } else {
-        
+        desconto = salario * DESCONTO_PERCENTUAL;
+
     }
 
-    printf("Retorno final: %d\n", var);
-
+    printf("Desconto: %.2f\n", desconto);
 }

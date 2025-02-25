@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: num (int)
+//     PROCESSAMENTO: verifica se o número é par e retorna VERDADEIRO ou falso
+//     SAÍDA: printf com o retorno
 
 #include <stdio.h>
 
@@ -12,12 +12,10 @@ int main() {
     printf("Informe um número inteiro: \n");
     scanf("%d", &num);
 
-    if() {
-
+    if( num % 2 == 0 ) {
+        printf("VERDADEIRO\n");
     } else {
-        
+        printf("FALSO\n");
+
     }
-
-    printf("Retorno final: %d\n", var);
-
 }

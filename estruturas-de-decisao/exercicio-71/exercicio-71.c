@@ -7,15 +7,10 @@
 
 int main() {
 
-    int nome1;
     int altura1;
     int peso1;
-    int nome2;
     int altura2;
     int peso2;
-    
-    printf("Informe o nome da primeira pessoa: \n");
-    scanf("%d", &nome1);
 
     printf("Informe a altura da primeira pessoa: \n");
     scanf("%d", &altura1);
@@ -23,21 +18,23 @@ int main() {
     printf("Informe o peso da primeira pessoa: \n");
     scanf("%d", &peso1);
 
-    printf("Informe o nome da segunda pessoa: \n");
-    scanf("%d", &nome2);
-
     printf("Informe a altura da segunda pessoa: \n");
     scanf("%d", &altura2);
 
     printf("Informe o peso da segunda pessoa: \n");
     scanf("%d", &peso2);
 
-    if() {
-
+    if ( peso1 > peso2 ) {
+        printf("A primeira pessoa tem o maior peso\n");
     } else {
-        
+        printf("A segunda pessoa tem o maior peso\n");
     }
 
-    printf("Retorno final: %d\n", var);
+    if ( altura1 > altura2 ) {
+        printf("A pessoa primeira pessoa tem a maior altura\n");
+    } else {
+        printf("A segunda pessoa tem a maior altura\n");
+    }
+
 
 }
