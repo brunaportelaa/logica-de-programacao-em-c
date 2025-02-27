@@ -23,7 +23,7 @@ int main() {
 
         printf("O maior número inserido até agora é: %d\n", maximo);
 
-    } while (x != 9999);
+    } while (x != SENTINELA);
     
     printf("Programa encerrado");
 
