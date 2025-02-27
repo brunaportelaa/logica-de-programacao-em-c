@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: fator1 e fator2 (int)
+//     PROCESSAMENTO: calcula o produto de dois números inteiros sem utilizar o operador de multiplicação
+//     SAÍDA: produto (int)
 
 #include <stdio.h>
 

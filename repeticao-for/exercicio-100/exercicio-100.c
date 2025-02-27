@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: num (int)
+//     PROCESSAMENTO: calcula a média dos números, o maior número e o menor número
+//     SAÍDA: média, maior número e menor número
 
 #include <stdio.h>
 

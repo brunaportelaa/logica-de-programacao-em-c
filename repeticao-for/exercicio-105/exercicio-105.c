@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: -
+//     PROCESSAMENTO: imprime os 20 primeiros números da sequência de Fibonacci
+//     SAÍDA: sequência de Fibonacci
 
 #include <stdio.h>
 

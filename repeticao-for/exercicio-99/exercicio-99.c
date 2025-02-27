@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: qtdFuncionarios (int), salario (int)
+//     PROCESSAMENTO: calcula a média dos salários, o salário mais alto e o salário mais baixo
+//     SAÍDA: média dos salários, salário mais alto e salário mais baixo
 
 #include <stdio.h>
 

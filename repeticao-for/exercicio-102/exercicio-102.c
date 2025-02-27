@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: diarias (int)
+//     PROCESSAMENTO: calcula o total do cliente e o total do hotel
+//     SAÍDA: total do cliente e total do hotel
 
 #include <stdio.h>
 
@@ -12,7 +12,7 @@ int main() {
     float totalCliente;
     float total = 0;
 
-    for ( i = 0; i < 3; i++ ) {
+    for ( i = 0; i < 30; i++ ) {
         printf("Quantas diárias você ficou no hotel? \n");
         scanf("%d", &diarias);
 

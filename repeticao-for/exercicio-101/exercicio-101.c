@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: num (int)
+//     PROCESSAMENTO: calcula o fatorial do número inserido
+//     SAÍDA: fatorial (long int)
 
 #include <stdio.h>
 

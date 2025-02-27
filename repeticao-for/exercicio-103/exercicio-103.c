@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: massa (float)
+//     PROCESSAMENTO: calcula a massa de um material radioativo até que ela seja menor que 0.05g
+//     SAÍDA: massa e tempo decorrido
 
 #include <stdio.h>
 #define MASSA_MINIMA 0.05
