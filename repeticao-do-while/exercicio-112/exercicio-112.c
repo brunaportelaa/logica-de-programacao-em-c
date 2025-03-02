@@ -15,6 +15,7 @@ int main() {
     while (soma <= VALOR_MAX) {
         soma += x;
         x *= RAZAO;
+        printf("Termo: %d\n", x);
     }
 
     printf("Soma total: %d\n", soma);
