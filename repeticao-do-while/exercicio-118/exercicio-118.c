@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: -
+//     PROCESSAMENTO: calcular quantos anos são necessários para que Zé seja maior que Chico
+//     SAÍDA: anos necessários para que Zé seja maior que Chico
 
 #include <stdio.h>
 

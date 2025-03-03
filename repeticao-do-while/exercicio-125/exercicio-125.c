@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número de andares do prédio e variação de pessoas no elevador
+//     PROCESSAMENTO: informar em qual andar o elevador está e quantas pessoas entraram ou saíram
+//     SAÍDA: andar atual e quantidade de pessoas no elevador
 
 #include <stdio.h>
 

@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: salário de funcionários
+//     PROCESSAMENTO: calcular a média salarial, o salário mais alto e o salário mais baixo
+//     SAÍDA: média salarial, salário mais alto e salário mais baixo
 
 #include <stdio.h>
 

@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA:
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: -
+//     PROCESSAMENTO:  somar os números de 1 a 10
+//     SAÍDA: soma dos números de 1 a 10
 
 #include <stdio.h>
 

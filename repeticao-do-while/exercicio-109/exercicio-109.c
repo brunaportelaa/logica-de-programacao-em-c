@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número inteiro
+//     PROCESSAMENTO: contar quantos números pares e ímpares foram inseridos
+//     SAÍDA: quantidade de números pares e ímpares inseridos
 
 #include <stdio.h>
 #define SENTINELA 9999

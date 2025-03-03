@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número de alunos e quantidade de vezes que cada aluno foi ao restaurante
+//     PROCESSAMENTO: calcular o percentual de alunos que foram ao restaurante menos de 10 vezes, entre 10 e 15 vezes e mais de 15 vezes
+//     SAÍDA: percentual de alunos que foram ao restaurante menos de 10 vezes, entre 10 e 15 vezes e mais de 15 vezes
 
 #include <stdio.h>
 

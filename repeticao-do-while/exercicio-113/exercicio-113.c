@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: altura e peso de duas pessoas
+//     PROCESSAMENTO: comparar altura e peso das duas pessoas
+//     SAÍDA: pessoa com maior altura e pessoa com maior peso
 
 #include <stdio.h>
 

@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA:
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: numero inteiro
+//     PROCESSAMENTO: somar os números inseridos e calcular a média
+//     SAÍDA: soma e média dos números inseridos
 
 #include <stdio.h>
 #define SENTINELA 9999

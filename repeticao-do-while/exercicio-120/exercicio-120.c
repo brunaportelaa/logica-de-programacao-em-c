@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: idade, gênero e salário de habitantes
+//     PROCESSAMENTO: calcular média salarial, menor e maior idade, quantidade de mulheres com salário até 1000
+//     SAÍDA: média salarial, menor e maior idade, quantidade de mulheres com salário até 1000
 
 #include <stdio.h>
 

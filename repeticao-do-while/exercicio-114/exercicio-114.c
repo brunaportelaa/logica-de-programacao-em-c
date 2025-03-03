@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número de hoteis, distância do hotel ao centro, número de visitantes no último feriado e tipo de acesso (0 - não asfaltado, 1 - asfaltado)
+//     PROCESSAMENTO: numero de hoteis a +15km do centro, média de visitantes no último feriado em hoteis não asfaltados, hoteis com menos de 1000 visitantes e tipo de acesso asfaltado
+//     SAÍDA: número de hoteis a +15km do centro, média de visitantes no último feriado em hoteis não asfaltados, hoteis com menos de 1000 visitantes e tipo de acesso asfaltado
 
 #include <stdio.h>
 

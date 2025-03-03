@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número n
+//     PROCESSAMENTO: calcular o maior quadrado menor que n
+//     SAÍDA: maior quadrado menor que n
 
 #include <stdio.h>
 

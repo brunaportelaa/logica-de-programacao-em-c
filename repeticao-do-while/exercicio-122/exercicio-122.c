@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número n
+//     PROCESSAMENTO: calcular os n primeiros números da sequência de Fibonacci
+//     SAÍDA: n primeiros números da sequência de Fibonacci
 
 #include <stdio.h>
 

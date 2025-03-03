@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: dois números inteiros
+//     PROCESSAMENTO: calcular o quociente e o resto da divisão de dois números inteiros
+//     SAÍDA: quociente e resto da divisão
 
 #include <stdio.h>
 

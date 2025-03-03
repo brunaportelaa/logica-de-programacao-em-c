@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA:
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número inteiro
+//     PROCESSAMENTO: identificar o maior número inserido
+//     SAÍDA: maior número inserido
 
 #include <stdio.h>
 #define SENTINELA 9999

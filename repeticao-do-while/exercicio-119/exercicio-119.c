@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número de termos, primeiro termo e razão de uma progressão aritmética
+//     PROCESSAMENTO: calcular a soma dos termos de uma progressão aritmética
+//     SAÍDA: soma dos termos de uma progressão aritmética
 
 #include <stdio.h>
 

@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: número a ser dividido por 2
+//     PROCESSAMENTO: dividir o número por 2 até que o quociente seja menor que 1
+//     SAÍDA: quantidade de divisões efetuadas e quociente atual
 
 #include <stdio.h>
 #define DIVISOR 2.0

@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: -
+//     PROCESSAMENTO: somar os números 3, 9, 27, 81, 243, 729, 2187, 6561
+//     SAÍDA: soma total
 
 #include <stdio.h>
 #define VALOR_MAX 6561

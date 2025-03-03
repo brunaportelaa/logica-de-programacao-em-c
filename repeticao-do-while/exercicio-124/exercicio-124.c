@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: matrícula, notas 1, 2 e 3
+//     PROCESSAMENTO: calcular a média ponderada das notas e informar se o aluno foi aprovado ou reprovado
+//     SAÍDA: total de alunos, total de aprovados e total de reprovados
 
 #include <stdio.h>
 

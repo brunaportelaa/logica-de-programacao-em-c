@@ -1,7 +1,7 @@
 // SÍNTESE
-//     ENTRADA: 
-//     PROCESSAMENTO: 
-//     SAÍDA: 
+//     ENTRADA: idade, sexo, cor dos olhos e cor dos cabelos de habitantes
+//     PROCESSAMENTO: calcular a maior idade, quantidade de mulheres entre 18 e 35 anos, quantidade de loiros com olhos verdes
+//     SAÍDA: maior idade, quantidade de mulheres entre 18 e 35 anos, quantidade de loiros com olhos verdes
 
 #include <stdio.h>
 
